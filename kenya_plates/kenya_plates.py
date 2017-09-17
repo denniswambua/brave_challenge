@@ -2,7 +2,7 @@ import re
 import string
 
 
-KENYAN_NUMBER_PLATE_REGEX_PATTERN = "(?:[K][A-Z]{2}|GK|CD)[0-9]{3}[A-Z]?"
+KENYAN_NUMBER_PLATE_REGEX_PATTERN = "(?:[K][A-Z]{2}|GK|CD)(?:\s)?[0-9]{3}[A-Z]?"
 KENYAN_NUMBER_PLATE_REGEX_PATTERN_NO_SPECIAL = "^[K][A-Z]{2}[0-9]{3}[A-Z]?$"
 POST_FIX_CONSTANT = 999  # Vehicle number between postfix subsequent change
 
